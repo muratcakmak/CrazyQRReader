@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B935EBF1C72B54800B73CEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B935EBE1C72B54800B73CEB /* AppDelegate.swift */; };
+		8B935EC11C72B54800B73CEB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B935EC01C72B54800B73CEB /* FirstViewController.swift */; };
+		8B935EC31C72B54800B73CEB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B935EC21C72B54800B73CEB /* SecondViewController.swift */; };
+		8B935EC61C72B54800B73CEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B935EC41C72B54800B73CEB /* Main.storyboard */; };
+		8B935EC81C72B54800B73CEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B935EC71C72B54800B73CEB /* Assets.xcassets */; };
+		8B935ECB1C72B54800B73CEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B935EC91C72B54800B73CEB /* LaunchScreen.storyboard */; };
+		8B935ED61C72B54800B73CEB /* TorchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B935ED51C72B54800B73CEB /* TorchTests.swift */; };
+		8B935EE11C72B54800B73CEB /* TorchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B935EE01C72B54800B73CEB /* TorchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B935ED21C72B54800B73CEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B935EB31C72B54800B73CEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B935EBA1C72B54800B73CEB;
+			remoteInfo = Torch;
+		};
+		8B935EDD1C72B54800B73CEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B935EB31C72B54800B73CEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B935EBA1C72B54800B73CEB;
+			remoteInfo = Torch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B935EBB1C72B54800B73CEB /* Torch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Torch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B935EBE1C72B54800B73CEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B935EC01C72B54800B73CEB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		8B935EC21C72B54800B73CEB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		8B935EC51C72B54800B73CEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B935EC71C72B54800B73CEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B935ECA1C72B54800B73CEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B935ECC1C72B54800B73CEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B935ED11C72B54800B73CEB /* TorchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TorchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B935ED51C72B54800B73CEB /* TorchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorchTests.swift; sourceTree = "<group>"; };
+		8B935ED71C72B54800B73CEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B935EDC1C72B54800B73CEB /* TorchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TorchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B935EE01C72B54800B73CEB /* TorchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorchUITests.swift; sourceTree = "<group>"; };
+		8B935EE21C72B54800B73CEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B935EB81C72B54800B73CEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B935ECE1C72B54800B73CEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B935ED91C72B54800B73CEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B935EB21C72B54800B73CEB = {
+			isa = PBXGroup;
+			children = (
+				8B935EBD1C72B54800B73CEB /* Torch */,
+				8B935ED41C72B54800B73CEB /* TorchTests */,
+				8B935EDF1C72B54800B73CEB /* TorchUITests */,
+				8B935EBC1C72B54800B73CEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B935EBC1C72B54800B73CEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B935EBB1C72B54800B73CEB /* Torch.app */,
+				8B935ED11C72B54800B73CEB /* TorchTests.xctest */,
+				8B935EDC1C72B54800B73CEB /* TorchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B935EBD1C72B54800B73CEB /* Torch */ = {
+			isa = PBXGroup;
+			children = (
+				8B935EBE1C72B54800B73CEB /* AppDelegate.swift */,
+				8B935EC01C72B54800B73CEB /* FirstViewController.swift */,
+				8B935EC21C72B54800B73CEB /* SecondViewController.swift */,
+				8B935EC41C72B54800B73CEB /* Main.storyboard */,
+				8B935EC71C72B54800B73CEB /* Assets.xcassets */,
+				8B935EC91C72B54800B73CEB /* LaunchScreen.storyboard */,
+				8B935ECC1C72B54800B73CEB /* Info.plist */,
+			);
+			path = Torch;
+			sourceTree = "<group>";
+		};
+		8B935ED41C72B54800B73CEB /* TorchTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B935ED51C72B54800B73CEB /* TorchTests.swift */,
+				8B935ED71C72B54800B73CEB /* Info.plist */,
+			);
+			path = TorchTests;
+			sourceTree = "<group>";
+		};
+		8B935EDF1C72B54800B73CEB /* TorchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B935EE01C72B54800B73CEB /* TorchUITests.swift */,
+				8B935EE21C72B54800B73CEB /* Info.plist */,
+			);
+			path = TorchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B935EBA1C72B54800B73CEB /* Torch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B935EE51C72B54800B73CEB /* Build configuration list for PBXNativeTarget "Torch" */;
+			buildPhases = (
+				8B935EB71C72B54800B73CEB /* Sources */,
+				8B935EB81C72B54800B73CEB /* Frameworks */,
+				8B935EB91C72B54800B73CEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Torch;
+			productName = Torch;
+			productReference = 8B935EBB1C72B54800B73CEB /* Torch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B935ED01C72B54800B73CEB /* TorchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B935EE81C72B54800B73CEB /* Build configuration list for PBXNativeTarget "TorchTests" */;
+			buildPhases = (
+				8B935ECD1C72B54800B73CEB /* Sources */,
+				8B935ECE1C72B54800B73CEB /* Frameworks */,
+				8B935ECF1C72B54800B73CEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B935ED31C72B54800B73CEB /* PBXTargetDependency */,
+			);
+			name = TorchTests;
+			productName = TorchTests;
+			productReference = 8B935ED11C72B54800B73CEB /* TorchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B935EDB1C72B54800B73CEB /* TorchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B935EEB1C72B54800B73CEB /* Build configuration list for PBXNativeTarget "TorchUITests" */;
+			buildPhases = (
+				8B935ED81C72B54800B73CEB /* Sources */,
+				8B935ED91C72B54800B73CEB /* Frameworks */,
+				8B935EDA1C72B54800B73CEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B935EDE1C72B54800B73CEB /* PBXTargetDependency */,
+			);
+			name = TorchUITests;
+			productName = TorchUITests;
+			productReference = 8B935EDC1C72B54800B73CEB /* TorchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B935EB31C72B54800B73CEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Murat Cakmak";
+				TargetAttributes = {
+					8B935EBA1C72B54800B73CEB = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					8B935ED01C72B54800B73CEB = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 8B935EBA1C72B54800B73CEB;
+					};
+					8B935EDB1C72B54800B73CEB = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 8B935EBA1C72B54800B73CEB;
+					};
+				};
+			};
+			buildConfigurationList = 8B935EB61C72B54800B73CEB /* Build configuration list for PBXProject "Torch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B935EB21C72B54800B73CEB;
+			productRefGroup = 8B935EBC1C72B54800B73CEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B935EBA1C72B54800B73CEB /* Torch */,
+				8B935ED01C72B54800B73CEB /* TorchTests */,
+				8B935EDB1C72B54800B73CEB /* TorchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B935EB91C72B54800B73CEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B935ECB1C72B54800B73CEB /* LaunchScreen.storyboard in Resources */,
+				8B935EC81C72B54800B73CEB /* Assets.xcassets in Resources */,
+				8B935EC61C72B54800B73CEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B935ECF1C72B54800B73CEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B935EDA1C72B54800B73CEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B935EB71C72B54800B73CEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B935EC31C72B54800B73CEB /* SecondViewController.swift in Sources */,
+				8B935EBF1C72B54800B73CEB /* AppDelegate.swift in Sources */,
+				8B935EC11C72B54800B73CEB /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B935ECD1C72B54800B73CEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B935ED61C72B54800B73CEB /* TorchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B935ED81C72B54800B73CEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B935EE11C72B54800B73CEB /* TorchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B935ED31C72B54800B73CEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B935EBA1C72B54800B73CEB /* Torch */;
+			targetProxy = 8B935ED21C72B54800B73CEB /* PBXContainerItemProxy */;
+		};
+		8B935EDE1C72B54800B73CEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B935EBA1C72B54800B73CEB /* Torch */;
+			targetProxy = 8B935EDD1C72B54800B73CEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B935EC41C72B54800B73CEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B935EC51C72B54800B73CEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B935EC91C72B54800B73CEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B935ECA1C72B54800B73CEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B935EE31C72B54800B73CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B935EE41C72B54800B73CEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B935EE61C72B54800B73CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Torch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.omuratcakmak.Torch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B935EE71C72B54800B73CEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Torch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.omuratcakmak.Torch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8B935EE91C72B54800B73CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TorchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.omuratcakmak.TorchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Torch.app/Torch";
+			};
+			name = Debug;
+		};
+		8B935EEA1C72B54800B73CEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TorchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.omuratcakmak.TorchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Torch.app/Torch";
+			};
+			name = Release;
+		};
+		8B935EEC1C72B54800B73CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TorchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.omuratcakmak.TorchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Torch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8B935EED1C72B54800B73CEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TorchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.omuratcakmak.TorchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Torch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B935EB61C72B54800B73CEB /* Build configuration list for PBXProject "Torch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B935EE31C72B54800B73CEB /* Debug */,
+				8B935EE41C72B54800B73CEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B935EE51C72B54800B73CEB /* Build configuration list for PBXNativeTarget "Torch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B935EE61C72B54800B73CEB /* Debug */,
+				8B935EE71C72B54800B73CEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B935EE81C72B54800B73CEB /* Build configuration list for PBXNativeTarget "TorchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B935EE91C72B54800B73CEB /* Debug */,
+				8B935EEA1C72B54800B73CEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B935EEB1C72B54800B73CEB /* Build configuration list for PBXNativeTarget "TorchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B935EEC1C72B54800B73CEB /* Debug */,
+				8B935EED1C72B54800B73CEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B935EB31C72B54800B73CEB /* Project object */;
+}
